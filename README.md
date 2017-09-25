@@ -20,7 +20,36 @@ TBD
 
 ### USAGE
 
-TBD
+Example:
+
+    z = ZenFinder(ZENS, "zscalerbeta")
+
+    # Example using getIpGeo method and passing IP address (full response)
+    z.getIpGeo("208.65.255.0")
+    z.getzens()
+
+    # Example using getIpGeo method and passing IP address (partial response)
+    z.getIpGeo("89.174.23.239")
+    z.getzens()
+
+    # Example using setGeo method and passing lattitude and longitude
+    z.setGeo(25.761680, -80.191790)
+    z.getzens()
+    
+Example Output:
+
+    eparra@eparra-zscaler:~$ python zenfinder.py
+    
+    getIpGeo: Boca Raton, United States
+    getIpGeo: 26.4095 latitude and -80.0942 longitude set
+    getzens : 1st ZEN: 165.225.32.32, 2nd ZEN: 104.129.204.32
+    
+    getIpGeo: (No city in resposne), Poland
+    getIpGeo: 52.2394 latitude and 21.0362 longitude set
+    getzens : 1st ZEN: 165.225.84.32, 2nd ZEN: 165.225.64.32
+
+    setGeo  : 25.76168 latitude and -80.19179 longitude set
+    getzens : 1st ZEN: 165.225.32.32, 2nd ZEN: 104.129.204.32
 
 ## SUPPORT
 
