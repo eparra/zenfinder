@@ -4,9 +4,9 @@ Zscaler ZEN Finder
 
 ## OVERVIEW
 
-_ZEN Finder_ will locate the two closest Zscaler Enforcement Nodes (ZENs) by latitude and longitude.  This is accomplished by calculating the distance between two points on a spherical plane to calcuate the distance between two points on Earth.  
+_ZEN Finder_ will locate the two closest Zscaler Enforcement Nodes (ZENs) by latitude and longitude.  This is accomplished by calculating the distance between two points on a spherical plane to calculate the distance between two points on Earth.  
 
-The repo is under active development.  If you take a clone, you are getting the latest, and perhaps not entirely stable code.  This repository is not affialted with Zscaler, Inc.
+The repo is under active development.  If you take a clone, you are getting the latest, and perhaps not entirely stable code.  This repository is not affiliated with Zscaler, Inc.
 
 ## INTENDED USERS
 
@@ -14,7 +14,7 @@ Fill in later
 
 ## INSTALLATION
 
-### Installing Dependacies using PIP
+### Installing Dependancies using PIP
 
 TBD
 
@@ -44,7 +44,7 @@ Example Output:
     getIpGeo: 26.4095 latitude and -80.0942 longitude set
     getzens : 1st ZEN: 165.225.32.32, 2nd ZEN: 104.129.204.32
     
-    getIpGeo: (No city in resposne), Poland
+    getIpGeo: (No city in response), Poland
     getIpGeo: 52.2394 latitude and 21.0362 longitude set
     getzens : 1st ZEN: 165.225.84.32, 2nd ZEN: 165.225.64.32
 
@@ -53,7 +53,13 @@ Example Output:
 
 ## SUPPORT
 
-This repository is not affialted with Zscaler, Inc.  Please open issues here.
+This repository is not affiliated with Zscaler, Inc.  Please open issues here.
+
+## TO DO
+
+* Parse "region_name" from freegeoip.net
+* Group all ZENs within a given geography to a parent reference
+* Use programatic interface for ZEN data acquisition. 
 
 ## CONTRIBUTORS
 
