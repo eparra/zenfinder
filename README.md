@@ -60,6 +60,7 @@ This repository is not affiliated with Zscaler, Inc.  Please open issues here.
 * Parse "region_name" from freegeoip.net
 * Group all ZENs within a given geography to a parent reference
 * Use programatic interface for ZEN data acquisition. 
+* Add ZEN data for zscaler.net, zscalerone.net, and zscalertwo.net
 
 ## CONTRIBUTORS
 
